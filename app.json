@@ -1,0 +1,7 @@
+{
+    "name": "soShare ",
+    "description": "Demonstrator App to share a pot between friends",
+    "repository": "https://git.heroku.com/stormy-atoll-31382.git",
+    "logo": "http://pathToYourLogo.png",
+    "keywords": ["ionic", "soshare", "rf"]
+}
