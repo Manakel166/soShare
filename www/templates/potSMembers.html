@@ -1,0 +1,26 @@
+<ion-view title="Pot's Members ">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <ion-list>
+            <label class="item item-input" name="Members_Add_Name">
+                <span class="input-label">Name:</span>
+                <input type="text" placeholder="Paul"  ng-model="input.name">
+            </label>
+        </ion-list>
+        <button class="button button-positive button-block  icon-left ion-android-add-circle" ng-click="addMember()">
+        Add Member
+      </button>
+
+        <button class="button button-dark button-block  icon-left ion-minus-circled" ng-click="deleteMember()">
+	Remove Member
+      </button>
+       <ion-list can-swipe="true">
+	<ion-item ng-repeat="item in members">
+		{{item.id}} : {{item.Name}}
+		<ion-option-button class="button-assertive" ng-click="deleteMember(item.id)">
+			Delete
+		</ion-option-button>
+	</ion-item>
+       </ion-list>
+
+    </ion-content>
+</ion-view>

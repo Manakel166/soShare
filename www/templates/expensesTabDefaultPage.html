@@ -1,0 +1,31 @@
+<ion-view title="Expenses Tab Default Page">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+	<label class="item item-select" name="Expenses_Add_SelectMember">
+                <span class="input-label">Who ?</span>
+                <select ng-model="input.member" ng-options="member.id as member.Name for member in members"></select>
+            </label>
+            <label class="item item-input" name="Expenses_Add_Amount">
+                <span class="input-label">Paid how much?</span>
+                <input type="number" placeholder="0,00" ng-model="input.amount">
+	</label>
+
+	     <label class="item item-input" name="Expenses_Add_What">
+                <span class="input-label"> to buy ?</span>
+                <input type="text" placeholder="Chips for the Party"  ng-model="input.name">
+            </label>
+        </form>
+        <button class="button button-positive button-block  icon-left ion-android-add-circle" ng-click="addExpense()">
+		Add Expense
+	</button>
+        <ion-list can-swipe="true">
+	<ion-item ng-repeat="item in expenses">
+		{{item.id}} : {{item.member}} bought {{item.name}} and paid {{item.amount}} euros 
+		<ion-option-button class="button-assertive" ng-click="deleteExpense(item.id)">
+			Delete
+		</ion-option-button>
+	</ion-item>
+       </ion-list>
+
+    </ion-content>
+</ion-view>
