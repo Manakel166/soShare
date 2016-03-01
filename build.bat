@@ -1,3 +1,3 @@
-ionic platform update android
-ionic build android
+call ionic platform update android
+call ionic build android
 start ionic serve
