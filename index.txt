@@ -1,0 +1,29 @@
+ Volume in drive C is OSDisk
+ Volume Serial Number is CEAC-D1A8
+
+ Directory of C:\Temp\00_IONIC_DEV\00_IONIC_APPS\soShare
+
+12/03/2016  17:13    <DIR>          .
+12/03/2016  17:13    <DIR>          ..
+10/02/2016  15:47                29 .bowerrc
+10/02/2016  15:47               242 .editorconfig
+10/02/2016  15:47               138 .gitignore
+12/02/2016  22:16               254 app.json
+10/02/2016  15:47               118 bower.json
+01/03/2016  22:30                79 build.bat
+01/03/2016  22:15             2ÿ644 config.xml
+10/02/2016  15:47             1ÿ385 gulpfile.js
+10/02/2016  15:47    <DIR>          hooks
+12/03/2016  17:13                 0 index.txt
+10/02/2016  15:48                40 ionic.project
+01/03/2016  22:33    <DIR>          node_modules
+12/02/2016  22:06               650 package.json
+11/02/2016  11:45    <DIR>          platforms
+11/02/2016  11:44    <DIR>          plugins
+01/03/2016  22:21                41 ReadMe.txt
+01/03/2016  22:15    <DIR>          resources
+10/02/2016  15:47    <DIR>          scss
+12/02/2016  22:05               249 server.js
+10/02/2016  15:48    <DIR>          www
+              13 File(s)          5ÿ869 bytes
+               9 Dir(s)  40ÿ884ÿ588ÿ544 bytes free
